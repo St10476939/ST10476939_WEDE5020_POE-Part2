@@ -1,0 +1,90 @@
+body{
+    background-color: #e6ccf4;
+    margin: 0px;
+}
+#wrapper{
+    width: 960px;
+    background-color: #d6ccf4;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: #efccf4;
+    height: 150px;
+    position: relative ;
+}
+header img{
+    width: 100px;
+    position: absolute ;
+    top: 10px;
+    left: 10px;
+}
+#topLinks{
+    position: absolute;
+    width: 500px;
+    top: 100px;
+    right: 10px;
+}
+#topLinks li{
+    display: inline-block;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+a:link{
+    color: rgb(255, 0, 85);
+    text-decoration: none;
+}
+a :visited{
+    color: #e6ccf4;
+}
+a :hover{
+    color: #e6ccf4;
+}
+.currentPage{
+    color: #efccf4;
+    border-bottom: solid thin #e6ccf4;
+}
+.clearFix{
+    clear: both;
+}
+main{
+    background-image: url();
+}
+#homeInfo{
+    background-color: #e6ccf4;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 2em; 
+    color: white; 
+    padding-left: 30px;
+    border-bottom: solid thin #ee4a09; 
+    padding-bottom: 15px;
+    margin: 0음;
+}
+h2{
+    font-size: 1.5em; 
+    font-weight: lighter; 
+    letter-spacing: 10px;
+    margin: Opx;
+    padding-left: 30px;
+}
+p{
+    font-size: 1em; 
+    padding-left: 30px;
+}
+footer{
+    text-align: center;
+    color: rgb(209, 29, 29); 
+    font-size: 0.7em; 
+    padding-top: 10px; 
+    padding-bottom: 5px;
+}
+#bottomLinks li{
+    display: inline-block; 
+    padding-left: 10px; 
+    padding-right: 10px;
+}
